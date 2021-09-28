@@ -6,6 +6,15 @@ body {
 h1 {
   color: white;
 }
+p {color: green;
+}
+ul.b {
+  list-style-type: square;
+}
+ol.d {
+  list-style-type: upper-alpha;
+}
+
 div{
   background: black;color: #ffffff;border: 2px dotted white;
   height: 100px;
