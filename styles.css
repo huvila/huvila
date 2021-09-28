@@ -8,10 +8,10 @@ h1 {
 }
 p {color: green;
 }
-two {
+list{
   list-style: square inside;
 }
-ol.normal {
+list {
   list-style-type: upper-alpha;
 }
 
