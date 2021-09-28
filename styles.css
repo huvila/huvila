@@ -8,13 +8,12 @@ h1 {
 }
 p {color: green;
 }
-list{
-  list-style: square inside;
+ul {
+  list-style-type: square;
 }
-list {
-  list-style-type: upper-alpha;
+ol {
+  list-style-type: lower-alpha;
 }
-
 div{
   background: black;color: #ffffff;border: 2px dotted white;
   height: 100px;
