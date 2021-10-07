@@ -1,42 +1,50 @@
-.otsikko{
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    }  
+
+#header{
     text-align: center;
-    text size: 70px;
+    font-size: 30px;
     color: black; 
 }
 
-.teksti {
+#navi {
+    text-align: center;
+    font-size:20px;
+    }
+
+
+#aside {
 background-color: white;
 display: inline-block;
 text-align: left;
+border:solid 5px gray;
+padding: 10px;
+float: left;
+position: absolute;
+left: 0;
+top: 140px;
+margin: 50px;
 }
 
-.teksti {
-    width: 300px;
-    border: 15px solid white;
-    padding: 10px;
-    margin: 10px;
-  }
+#article {
+    background-color: white;
+    text-align: left;
+    margin-left: 200px;
+    margin-right:200px;
+    border: solid 3px grey;
+    padding: 10px
+ 
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+#section {
+    background-color: white;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid 3px grey;
+    padding: 10px;
+}
