@@ -1,1 +1,18 @@
+body {background-color: rgb(177, 176, 176);}
+.otsikko {
+    display: inline;
+    border: 2px dashed orange;
+    padding: 5px
+}
+.otsikko{
+    margin-left: 550px;
+}
 
+
+.leipateksti {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid  orange;
+    border-radius: 5px;
+    padding: 10px;
+    }
