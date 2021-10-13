@@ -10,11 +10,12 @@ body {background-color: rgb(177, 176, 176);}
 
 
 .leipateksti {
-    display: inline-block;
     background-color: white;
     border: 2px solid  orange;
     border-radius: 5px;
     padding: 10px;
+    display: inline-block
+    
     }
 
 
