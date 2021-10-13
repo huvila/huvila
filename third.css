@@ -1,1 +1,32 @@
 
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    }  
+
+
+#header{
+    text-align: center;
+    font-size: 30px;
+    color: black; 
+    }
+
+
+#nav {
+float: left;
+width: 20%;
+background-color: lightgray;
+padding-left: 15px; 
+padding-bottom: 15px;
+}
+
+#section {
+    float: left;
+    width: 70%; 
+    background-color: wheat;
+    padding-left: 20px;
+    margin-left: 30px;
+}
