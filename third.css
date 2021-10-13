@@ -27,6 +27,7 @@ padding-bottom: 15px;
 
 nav ul { list-style-type: none;}
 nav a :hover {color: red;}
+nav a:visited {color:#003366;}
 
 main {
     float: left;
