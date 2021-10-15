@@ -1,21 +1,29 @@
-body {background-color: black;}
+
 body {
+  background-color: black;
   color: white;
+
 }
 
 h1 {
   color: white;
+  font-size: 20px;
 }
+
 p {color: green;
+  font-size: 12px;
 }
 ul {
   list-style-type: square;
-}
-ol {
-  list-style-type: lower-alpha;
-}
-div{
-  background: black;color: #ffffff;border: 2px dotted white;
+  border: 2px dotted white; 
   height: 100px;
   width: 100px;
 }
+
+ol {
+  list-style-type: lower-alpha;
+  border: 2px dotted white;
+  height: 100px;
+  width: 100px;
+}
+
