@@ -12,20 +12,20 @@ header {
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    border: solid 10px slategray;
+    border: solid 3px #292f36;
     }
 
 nav {
 background-color: white;
 padding: 20px;
 text-align: center;
-border: solid 10px slategray;
+border: solid 3px #292f36;
 }
 
 main {
     background-color: white;   
     padding: 20px;
-    border: solid 10px slategray;
+    border: solid 3px #292f36;
 }
 
 
