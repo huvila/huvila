@@ -4,51 +4,90 @@
 <head>
     <title>Taulukko harjoitus</title>
     <meta charset="UTF-8">
-    </head>
+    <link rel="stylesheet" href="table.css">
+</head>
+
 <body>
     <table>
-        <caption>Budjetti taulukko</caption>
+        <caption>
+            <h2>Kuukausittainen budjetti</h2>
+        </caption>
+        <br>
         <tr>
-            <th colspan="3"><b>Budjetti</b></th>
+            <th colspan="4"><b>
+                    <h3>Budjetti</h3>
+                </b></th>
         </tr>
         <tr>
-          <td></td>
-          <td>Tammikuu</td>
-          <td>Helmikuu</td>
-          <td>Maaliskuu</td>
+            <td></td>
+            <td><b>Tammikuu</b></td>
+            <td><b>Helmikuu</b></td>
+            <td><b>Maaliskuu</b></td>
         </tr>
         <tr>
-          <td>Ruoka</td>
-          <td>40</td>
-          <td>70</td>
-          <td>100</td>
+            <td><b>Ruoka</b></td>
+            <td>40</td>
+            <td>70</td>
+            <td>100</td>
         </tr>
         <tr>
-            <td>Asuminen</td>
+            <td><b>Asuminen</b></td>
             <td>550</td>
             <td>550</td>
             <td>550</td>
-          </tr>
-          <tr>
-            <td>Muu</td>
+        </tr>
+        <tr>
+            <td><b>Muu</b></td>
             <td>150</td>
             <td>200</td>
             <td>170</td>
-          </tr>
-          <tr>
-            <td>Harrastukset</td>
+        </tr>
+        <tr>
+            <td><b>Harrastukset</b></td>
             <td>300</td>
             <td>320</td>
             <td>280</td>
-            </tr>
-            <tr>
-                <td>Yhteensä</td>
-                <td>1040</td>
-                <td>1140</td>
-                <td>1100</td>
-              </tr>
+        </tr>
+        <tr>
+            <td><b>Yhteensä</b></td>
+            <td>1040</td>
+            <td>1140</td>
+            <td>1100</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+        <legend><h2>Täytä lomake</h2></legend><br>
+        
+        <form action="https://www.w3schools.com/action_page.php">
+            Etunimi <br> <input type="text" name="fname" required> <br>
+            Sukunimi <br> <input type="text" name="lname" required> <br>
+            Email <br> <input type="text" name="email" required><br>
+            Kerro jotain itsestäsi <br>
+            <textarea name="message" rows="4" cols="80">
+                    </textarea>
+                    <br>
+                
+            <label for="cars">Valitse juoma</label>
+            <select id="juomat" name="juomat" size="1">
+                <option value="tea">Tee</option>
+                <option value="coffee">Kahvi</option>
+                <option value="juice">Mehu</option>
+                <option value="water">Vesi</option>
+            </select>
+            <br>
+            <input type="checkbox" id="alien" name="saannot" value="alien">
+            <label for="alien">I am an alien</label>
+            <br>
+    
+        
 
-      </table>
+            <input type="submit" value="Add new user">
+        </form>
+    </fieldset>
+
 
 
 </body>
