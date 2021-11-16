@@ -1,1 +1,50 @@
 
+p {
+    border: solid 1px orange;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 1px orange;
+    margin: 5px;
+}
+
+h2 {
+
+    text-shadow: 2px 2px 8px orange;
+}
+
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    } 
+
+
+header{
+    text-align: center;
+    background-image: url(ellioona.jpg);
+    background-size: cover;
+    height: 250px;
+    
+    }
+
+
+ main {
+        float: left;
+        width: 70%; 
+        background-color: lightslategrey;
+        padding-left: 15px;
+        margin-left: 30px;
+    }
+
+    a:hover {
+        color: orange;
+        transition-duration: 3s;
+          }
+
+    @media only screen and (max-width: 800px) {
+            body {
+              background-color: grey;
+              color: white;
+            }
+          }
